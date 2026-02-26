@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0f0f0f;
-  color: #f0f0f0;
+  background-color: #f5f5f5;
+  color: #1a1a1a;
   line-height: 1.6;
 }
 
@@ -18,8 +18,9 @@ nav {
   padding: 1.5rem 5%;
   position: sticky;
   top: 0;
-  background-color: #0f0f0f;
-  border-bottom: 1px solid #222;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 nav ul {
@@ -29,7 +30,7 @@ nav ul {
 }
 
 nav a {
-  color: #f0f0f0;
+  color: #1a1a1a;
   text-decoration: none;
   font-size: 0.95rem;
 }
@@ -47,11 +48,13 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #ffffff;
 }
 
 #hero h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
+  color: #1a1a1a;
 }
 
 #hero h1 span {
@@ -60,7 +63,7 @@ section {
 
 #hero p {
   font-size: 1.2rem;
-  color: #aaa;
+  color: #666;
   margin-bottom: 2rem;
 }
 
@@ -84,6 +87,11 @@ h2 {
   margin-bottom: 2rem;
   border-left: 4px solid #6c63ff;
   padding-left: 1rem;
+  color: #1a1a1a;
+}
+
+#about {
+  background-color: #f5f5f5;
 }
 
 .skills {
@@ -94,12 +102,16 @@ h2 {
 }
 
 .skills span {
-  background: #1e1e2e;
+  background: #ffffff;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   color: #6c63ff;
   border: 1px solid #6c63ff;
+}
+
+#projects {
+  background-color: #ffffff;
 }
 
 .project-grid {
@@ -109,15 +121,16 @@ h2 {
 }
 
 .project-card {
-  background: #1a1a2e;
-  border: 1px solid #2a2a4a;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 1.5rem;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .project-card h3 {
@@ -126,7 +139,7 @@ h2 {
 }
 
 .project-card p {
-  color: #aaa;
+  color: #666;
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
@@ -140,10 +153,11 @@ h2 {
 
 #contact {
   text-align: center;
+  background-color: #f5f5f5;
 }
 
 #contact p {
-  color: #aaa;
+  color: #666;
   margin-bottom: 1.5rem;
 }
 
